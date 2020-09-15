@@ -3,7 +3,7 @@ import * as crypto from "crypto";
 const generate = (): string => {
   // 生成する乱数の文字数
   const characterNumber = 5;
-  // ランダムな文字列に使用する文字列のリスト
+  // ランダムな文字列に使用する文字リスト
   const stringList = "abcdefghijklmnopqrstuvwxyz0123456789";
 
   // 生成する暗号文字数文のuint8arrayを作成
@@ -18,7 +18,7 @@ const generate = (): string => {
   const randamNumberArray = Array.from(randamUint8array);
   console.log("randamNumberArray", randamNumberArray);
 
-  // 各数値を文字列のリストを使用して変換
+  // 各数値を文字リストを使用して,文字に変換
   const randomStringArray = randamNumberArray.map(
     (randamNumber) => stringList[randamNumber % stringList.length]
   );
