@@ -6,7 +6,7 @@ const generate = (): string => {
   // ランダムな文字列に使用する文字リスト
   const stringList = "abcdefghijklmnopqrstuvwxyz0123456789";
 
-  // 生成する暗号文字数文のuint8arrayを作成
+  // 生成する乱数文字数分のuint8arrayを作成
   const uint8array = new Uint8Array(characterNumber);
   console.log("uint8array", uint8array);
 
