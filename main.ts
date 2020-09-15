@@ -2,7 +2,7 @@ import * as crypto from "crypto";
 
 const generate = (): string => {
   // 生成する乱数の文字数
-  const characterNumber = 44;
+  const characterNumber = 5;
   // ランダムな文字列に使用する文字列のリスト
   const stringList = "abcdefghijklmnopqrstuvwxyz0123456789";
 
