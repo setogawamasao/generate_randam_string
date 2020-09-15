@@ -31,3 +31,7 @@ randomStringArray
 [ 'z', '9', '5', 'u', 'u' ]
 
 final result : z95uu
+
+### 参考
+
+[JavaScript でお手軽にランダム文字列の生成](https://qiita.com/fukasawah/items/db7f0405564bdc37820e)
